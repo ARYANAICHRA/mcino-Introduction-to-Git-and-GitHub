@@ -12,8 +12,14 @@
 # compound interest = p * (1 + r/100)^t
 
 
-def compound_interest(p, t, r):
+def compound_amount(p, t, r):
+    """Return the compound amount after t years: A = p * (1 + r/100)^t"""
     return p * (pow((1 + r / 100), t))
+
+
+def compound_interest(p, t, r):
+    """Return the compound interest earned (amount - principal)."""
+    return compound_amount(p, t, r) - p
 
 
 if __name__ == "__main__":
@@ -21,4 +27,7 @@ if __name__ == "__main__":
     t = float(input("Enter the time period: "))
     r = float(input("Enter the rate of interest: "))
 
-    print("The compound interest is {:.2f}".format(compound_interest(p, t, r)))
+    amount = compound_amount(p, t, r)
+    interest = amount - p
+    print("The compound amount after {:.2f} years is: {:.2f}".format(t, amount))
+    print("The compound interest earned is: {:.2f}".format(interest))
