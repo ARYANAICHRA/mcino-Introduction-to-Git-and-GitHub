@@ -1,0 +1,4 @@
+git branch -v
+
+* complete-files 467fb1b Complete repository files: update README, CONTRIBUTING, CODE_OF_CONDUCT; improve compound_interest and simple-interest scripts
+  main           ad95b0a Create close_pr.yml

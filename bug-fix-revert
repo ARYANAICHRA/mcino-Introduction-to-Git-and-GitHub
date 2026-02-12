@@ -1,0 +1,97 @@
+curl command:
+curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/ARYANAICHRA/mcino-Introduction-to-Git-and-GitHub
+
+Terminal output:
+
+{
+  "id": 1156566609,
+  "node_id": "R_kgDORO_OUQ",
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  "full_name": "ARYANAICHRA/mcino-Introduction-to-Git-and-GitHub",
+  "private": false,
+  "owner": {
+    "login": "ARYANAICHRA",
+    "id": 109470353,
+    "node_id": "U_kgDOBoZikQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/109470353?v=4",
+    "html_url": "https://github.com/ARYANAICHRA",
+    "type": "User",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/ARYANAICHRA/mcino-Introduction-to-Git-and-GitHub",
+  "description": "Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "created_at": "2026-02-12T19:49:12Z",
+  "updated_at": "2026-02-12T20:05:28Z",
+  "pushed_at": "2026-02-12T20:05:23Z",
+  "git_url": "git://github.com/ARYANAICHRA/mcino-Introduction-to-Git-and-GitHub.git",
+  "ssh_url": "git@github.com:ARYANAICHRA/mcino-Introduction-to-Git-and-GitHub.git",
+  "clone_url": "https://github.com/ARYANAICHRA/mcino-Introduction-to-Git-and-GitHub.git",
+  "language": "Python",
+  "forks_count": 0,
+  "open_issues_count": 0,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0"
+  },
+  "visibility": "public",
+  "forks": 0,
+  "open_issues": 0,
+  "watchers": 0,
+  "default_branch": "main",
+  "parent": {
+    "id": 1050225087,
+    "node_id": "R_kgDOPpkpvw",
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "private": false,
+    "owner": {
+      "login": "ibm-developer-skills-network",
+      "id": 70551872,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjcwNTUxODcy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70551872?v=4",
+      "html_url": "https://github.com/ibm-developer-skills-network",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "description": "Introduction-to-Git-and-GitHub",
+    "fork": false,
+    "created_at": "2025-09-04T06:07:42Z",
+    "updated_at": "2026-02-12T14:13:56Z",
+    "pushed_at": "2025-09-04T10:02:47Z",
+    "git_url": "git://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git",
+    "ssh_url": "git@github.com:ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git",
+    "clone_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git",
+    "language": "Python",
+    "forks_count": 4545,
+    "open_issues_count": 6,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0"
+    },
+    "visibility": "public",
+    "forks": 4545,
+    "open_issues": 6,
+    "watchers": 6,
+    "default_branch": "main"
+  },
+  "source": {
+    "id": 1050225087,
+    "node_id": "R_kgDOPpkpvw",
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "private": false,
+    "owner": {
+      "login": "ibm-developer-skills-network",
+      "id": 70551872,
+      "html_url": "https://github.com/ibm-developer-skills-network",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "fork": false,
+    "default_branch": "main"
+  }
+}
